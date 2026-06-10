@@ -1,40 +1,41 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html {
-  height: 100%;
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* BohiApp brand palette (mirrors shopflow/constants/colors.ts) */
+  --primary: #e0622a;
+  --primary-dark: #c44d1e;
+  --primary-light: #fff0e8;
+  --accent: #f5a826;
+  --accent-light: #fff8e7;
+  --secondary: #2d1f0e;
+  --secondary-light: #f7f0e8;
+  --background: #faf5ef;
+  --surface: #ffffff;
+  --surface-alt: #fff8f5;
+  --border: #ede3d8;
+  --border-dark: #d4c4b0;
+  --text-primary: #2d1f0e;
+  --text-secondary: #7a6552;
+  --text-muted: #a8917a;
+  --gradient-warm: linear-gradient(135deg, #f5a826, #e0622a);
+  --gradient-earth: linear-gradient(135deg, #2d1f0e, #e0622a);
 }
 
 * {
   box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--text-primary);
+  font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -42,8 +43,7 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+img {
+  max-width: 100%;
+  display: block;
 }
