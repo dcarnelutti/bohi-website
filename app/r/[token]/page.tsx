@@ -1,3 +1,4 @@
+import { cache } from "react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
@@ -41,14 +42,51 @@ export async function generateMetadata({
   params: Promise<{ token: string }>;
 }): Promise<Metadata> {
   const { token } = await params;
+  const share = await getShare(token);
+
+  // Antes esto devolvia un titulo fijo y ninguna etiqueta og:, asi que las
+  // tarjetas de Facebook y X heredaban las del layout: la misma para cada link
+  // compartido, sin la foto ni el nombre de lo que se estaba compartiendo.
+  if (!share) {
+    return {
+      title: "BohiApp — Este link no es válido",
+      description: "Es posible que ya haya sido usado o que haya expirado.",
+      alternates: { canonical: `/r/${token}` },
+    };
+  }
+
+  const label = TYPE_LABELS[share.share_type];
+  const title = `${share.title} · ${label} en BohiApp`;
+  const description =
+    share.subtitle ?? `Te compartieron ${label.toLowerCase()} en BohiApp. Abrí el link para verlo.`;
+  const url = `/r/${token}`;
+
   return {
-    title: "BohiApp — Te compartieron algo",
-    description: "Te compartieron algo en BohiApp. Descarga la app para verlo.",
-    alternates: { canonical: `/r/${token}` },
+    title,
+    description,
+    alternates: { canonical: url },
+    openGraph: {
+      type: "website",
+      siteName: "BohiApp",
+      title,
+      description,
+      url,
+      // La imagen del item cuando existe; si no, el logo, que metadataBase
+      // resuelve a absoluto. Las redes descartan una URL relativa.
+      images: [share.image_url ?? "/bohiapp.png"],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [share.image_url ?? "/bohiapp.png"],
+    },
   };
 }
 
-async function getShare(token: string): Promise<ShareRow | null> {
+// cache() para que generateMetadata y el render compartan una sola consulta:
+// Next llama a las dos en la misma request.
+const getShare = cache(async function getShare(token: string): Promise<ShareRow | null> {
   try {
     const { data } = await supabase
       .from("shares")
@@ -60,7 +98,7 @@ async function getShare(token: string): Promise<ShareRow | null> {
     console.error("getShare error:", e);
     return null;
   }
-}
+});
 
 export default async function ShareLanding({
   params,
