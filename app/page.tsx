@@ -78,7 +78,7 @@ export default function Home() {
               con QR y reserva servicios de confianza.
             </p>
             <div className={styles.storeButtons}>
-              <a href="#" className={styles.storeBtn}>
+              <a href="https://apps.apple.com/app/id6772028681" className={styles.storeBtn}>
                  App Store
               </a>
               <a href="#" className={styles.storeBtnAlt}>

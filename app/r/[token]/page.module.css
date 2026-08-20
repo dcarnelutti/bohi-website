@@ -1,0 +1,109 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: #faf5ef;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  border: 1px solid #f1e8dd;
+  border-radius: 24px;
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(45, 31, 14, 0.08);
+}
+
+.badge {
+  background: #fdf0e8;
+  color: #b33f10;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 5px 12px;
+  border-radius: 999px;
+  margin-bottom: 18px;
+}
+
+.image {
+  width: 100%;
+  max-width: 220px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 18px;
+  background: #f5f0e9;
+}
+
+.emoji {
+  font-size: 64px;
+  line-height: 1;
+  margin-bottom: 14px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 800;
+  color: #2d1f0e;
+  margin: 0 0 8px;
+}
+
+.text {
+  font-size: 14px;
+  color: #6b6259;
+  line-height: 1.5;
+  margin: 0 0 8px;
+}
+
+.ctaRow {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  margin-top: 18px;
+}
+
+.cta,
+.ctaAlt {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 12px;
+  padding: 13px 0;
+  font-size: 15px;
+  font-weight: 800;
+  text-decoration: none;
+  transition: background 0.15s ease;
+}
+
+.cta {
+  background: #e0622a;
+  color: #fff;
+}
+
+.cta:hover {
+  background: #b33f10;
+}
+
+.ctaAlt {
+  background: #fff;
+  color: #2d1f0e;
+  border: 2px solid #2d1f0e;
+}
+
+.hint {
+  font-size: 12px;
+  color: #a39a8f;
+  margin: 14px 0;
+  line-height: 1.5;
+}
