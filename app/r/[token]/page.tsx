@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
 import { CopyLinkButton } from "./CopyLinkButton";
+import { StoreButton } from "./StoreButton";
 import styles from "./page.module.css";
 
 export const dynamic = "force-dynamic";
@@ -140,16 +141,15 @@ export default async function ShareLanding({
         {share.subtitle ? <p className={styles.text}>{share.subtitle}</p> : null}
 
         <div className={styles.ctaRow}>
-          <a
-            href={APP_STORE_URL}
-            className={styles.cta}
-            // iOS opens the app directly via the universal link when installed.
-          >
+          {/* Con la app instalada, el universal link la abre directo y estos
+              botones ni se ven. Cuando no lo esta, dejan el token en el
+              portapapeles para que la app lo reclame al primer arranque. */}
+          <StoreButton url={url} href={APP_STORE_URL} className={styles.cta}>
              App Store
-          </a>
-          <a href={PLAY_STORE_URL} className={styles.ctaAlt}>
+          </StoreButton>
+          <StoreButton url={url} href={PLAY_STORE_URL} className={styles.ctaAlt}>
             ▶ Google Play
-          </a>
+          </StoreButton>
         </div>
         <p className={styles.hint}>
           {share.claimed_at
