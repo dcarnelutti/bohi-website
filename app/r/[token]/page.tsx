@@ -72,15 +72,14 @@ export async function generateMetadata({
       title,
       description,
       url,
-      // La imagen del item cuando existe; si no, el logo, que metadataBase
-      // resuelve a absoluto. Las redes descartan una URL relativa.
-      images: [share.image_url ?? "/bohiapp.png"],
+      // Sin `images` acá, Next usa opengraph-image.tsx: la tarjeta compuesta
+      // con la foto, el título y la fecha. Declararlas a mano la anularía y
+      // volveríamos a mandar la foto cruda, que no dice de qué se trata.
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: [share.image_url ?? "/bohiapp.png"],
     },
   };
 }
