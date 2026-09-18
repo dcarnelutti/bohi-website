@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "./page.module.css";
 
 const countries = [
@@ -176,6 +177,14 @@ export default function Home() {
           <Image src="/bohiapp.png" alt="BohiApp" width={28} height={28} className={styles.logo} />
           <span>BohiApp</span>
         </div>
+        {/* Apple pide las URLs de privacidad y soporte en la ficha, pero
+            ademas tienen que ser alcanzables desde el sitio: el revisor entra
+            por la home. */}
+        <nav className={styles.footerNav}>
+          <Link href="/privacy">Privacidad</Link>
+          <Link href="/terms">Términos</Link>
+          <Link href="/support">Soporte</Link>
+        </nav>
         <p>© {new Date().getFullYear()} BohiApp. Hecho con cariño para la comunidad latina.</p>
       </footer>
     </div>

@@ -1,0 +1,100 @@
+.wrap {
+  min-height: 100vh;
+  background: var(--background);
+  color: var(--text-primary);
+}
+
+.header {
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 800;
+  font-size: 17px;
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.logo { border-radius: 7px; }
+
+/* 72ch: una linea de texto legal mas ancha que esto se vuelve dificil de
+   seguir, y estos documentos se leen enteros o no se leen. */
+.doc {
+  max-width: 72ch;
+  margin: 0 auto;
+  padding: 48px 24px 64px;
+}
+
+.title {
+  font-size: 32px;
+  line-height: 1.15;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  margin: 0 0 8px;
+}
+
+.dates {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin: 0 0 32px;
+}
+
+.section { margin-top: 36px; }
+
+.sectionTitle {
+  font-size: 19px;
+  font-weight: 700;
+  margin: 0 0 12px;
+  letter-spacing: -0.2px;
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin: 0 0 16px;
+}
+
+.list {
+  margin: 0 0 16px;
+  padding-left: 22px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+.list li { margin-bottom: 10px; }
+
+.footer {
+  border-top: 1px solid var(--border);
+  padding: 32px 24px 48px;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.footerNav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 20px;
+  margin-bottom: 14px;
+}
+
+.footerNav a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footerNav a:hover { text-decoration: underline; }
+
+@media (max-width: 640px) {
+  .doc { padding: 32px 20px 48px; }
+  .title { font-size: 26px; }
+}
