@@ -1,0 +1,23 @@
+<!-- Generated from brand/illustrations/envelope.svg by brand/sync.py: edit the source, not this copy. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <g id="edge" fill="#FAF5EF" stroke="#FAF5EF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="rotate(-8 100 100)">
+      <path d="M42 80 L100 36 L158 80 Z" />
+      <rect x="42" y="78" width="116" height="82" rx="7" />
+      <rect x="64" y="42" width="72" height="96" rx="6" />
+      <path d="M80 64 H120 M80 80 H116 M80 96 H110" />
+      <path d="M42 94 H158 V160 H42 Z" />
+      <path d="M42 160 L100 126 L158 160" />
+    </g>
+  </g>
+  <g id="drawing" stroke="#2D1F0E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="rotate(-8 100 100)">
+      <path d="M42 80 L100 36 L158 80 Z" fill="#F2915E" />
+      <rect x="42" y="78" width="116" height="82" rx="7" fill="#E0622A" />
+      <rect x="64" y="42" width="72" height="96" rx="6" fill="#FFFFFF" />
+      <path d="M80 64 H120 M80 80 H116 M80 96 H110" fill="none" stroke-width="4" />
+      <path d="M42 94 H158 V160 H42 Z" fill="#E0622A" />
+      <path d="M42 160 L100 126 L158 160" fill="none" stroke-width="4" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<!-- Generated from brand/illustrations/star.svg by brand/sync.py: edit the source, not this copy. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <g id="edge" fill="#FAF5EF" stroke="#FAF5EF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M96 42 Q100 34 104 42 L116 70 Q119 76 126 77 L156 80 Q165 81 158 87 L136 107 Q130 112 132 120 L139 148 Q140 157 132 152 L106 137 Q100 134 94 137 L68 152 Q60 157 61 148 L68 120 Q70 112 64 107 L42 87 Q35 81 44 80 L74 77 Q81 76 84 70 Z" />
+    <path d="M154 36 L160 49 L173 55 L160 61 L154 74 L148 61 L135 55 L148 49 Z" />
+    <path d="M48 128 L53 140 L65 145 L53 151 L48 164 L43 151 L31 145 L43 140 Z" />
+  </g>
+  <g id="drawing" stroke="#2D1F0E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M96 42 Q100 34 104 42 L116 70 Q119 76 126 77 L156 80 Q165 81 158 87 L136 107 Q130 112 132 120 L139 148 Q140 157 132 152 L106 137 Q100 134 94 137 L68 152 Q60 157 61 148 L68 120 Q70 112 64 107 L42 87 Q35 81 44 80 L74 77 Q81 76 84 70 Z" fill="#F5A826" />
+    <path d="M154 36 L160 49 L173 55 L160 61 L154 74 L148 61 L135 55 L148 49 Z" fill="#E0622A" />
+    <path d="M48 128 L53 140 L65 145 L53 151 L48 164 L43 151 L31 145 L43 140 Z" fill="#E0622A" />
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<!-- Generated from brand/illustrations/handshake.svg by brand/sync.py: edit the source, not this copy. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <g id="edge" fill="#FAF5EF" stroke="#FAF5EF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(0 -14)">
+      <path d="M 52 116 C 60 92, 80 72, 102 66 C 120 62, 136 70, 144 84 L 130 104 C 118 116, 98 124, 82 128 C 74 130, 68 130, 66 130 Z" />
+      <path d="M 148 116 C 142 96, 126 82, 106 80 L 82 82 C 70 84, 64 94, 70 100 C 62 104, 62 114, 72 116 C 66 122, 70 130, 80 130 C 98 132, 120 128, 134 132 Z" />
+      <path d="M 70 100 C 78 98, 86 100, 92 104 M 72 116 C 80 114, 88 116, 94 120" />
+      <path d="M 98 80 C 106 68, 122 64, 132 70 C 138 74, 134 82, 126 82 C 116 82, 108 86, 102 90 Z" />
+    </g>
+    <g transform="rotate(-50 47 128)">
+      <rect x="22" y="109" width="48" height="38" rx="7" />
+      <rect x="61" y="107" width="10" height="42" rx="4" />
+    </g>
+    <g transform="rotate(50 153 128)">
+      <rect x="130" y="109" width="48" height="38" rx="7" />
+      <rect x="129" y="107" width="10" height="42" rx="4" />
+    </g>
+  </g>
+  <g id="drawing" stroke="#2D1F0E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(0 -14)">
+      <path d="M 52 116 C 60 92, 80 72, 102 66 C 120 62, 136 70, 144 84 L 130 104 C 118 116, 98 124, 82 128 C 74 130, 68 130, 66 130 Z" fill="#E8B98A" />
+      <path d="M 148 116 C 142 96, 126 82, 106 80 L 82 82 C 70 84, 64 94, 70 100 C 62 104, 62 114, 72 116 C 66 122, 70 130, 80 130 C 98 132, 120 128, 134 132 Z" fill="#C68B59" />
+      <path d="M 70 100 C 78 98, 86 100, 92 104 M 72 116 C 80 114, 88 116, 94 120" fill="none" stroke-width="4" />
+      <path d="M 98 80 C 106 68, 122 64, 132 70 C 138 74, 134 82, 126 82 C 116 82, 108 86, 102 90 Z" fill="#E8B98A" />
+    </g>
+    <g transform="rotate(-50 47 128)">
+      <rect x="22" y="109" width="48" height="38" rx="7" fill="#E0622A" />
+      <rect x="61" y="107" width="10" height="42" rx="4" fill="#FFFFFF" />
+    </g>
+    <g transform="rotate(50 153 128)">
+      <rect x="130" y="109" width="48" height="38" rx="7" fill="#F5A826" />
+      <rect x="129" y="107" width="10" height="42" rx="4" fill="#FFFFFF" />
+    </g>
+  </g>
+</svg>

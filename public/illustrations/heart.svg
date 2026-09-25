@@ -1,0 +1,19 @@
+<!-- Generated from brand/illustrations/heart.svg by brand/sync.py: edit the source, not this copy. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <g id="edge" fill="#FAF5EF" stroke="#FAF5EF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="rotate(-10 100 100)">
+      <path d="M100 164 C92 154 58 134 47 106 C36 78 45 52 70 44 C86 39 100 48 107 64 C116 49 130 42 146 46 C170 52 178 77 166 105 C154 133 116 153 100 164 Z" />
+      <path d="M65 76 C72 63 86 58 97 67" />
+      <polygon points="40,96 45,108 57,113 45,118 40,130 35,118 23,113 35,108" />
+      <polygon points="160,118 165,130 177,135 165,140 160,152 155,140 143,135 155,130" />
+    </g>
+  </g>
+  <g id="drawing" stroke="#2D1F0E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="rotate(-10 100 100)">
+      <path d="M100 164 C92 154 58 134 47 106 C36 78 45 52 70 44 C86 39 100 48 107 64 C116 49 130 42 146 46 C170 52 178 77 166 105 C154 133 116 153 100 164 Z" fill="#E0622A" />
+      <path d="M65 76 C72 63 86 58 97 67" fill="none" stroke="#FFFFFF" stroke-width="6" />
+      <polygon points="40,96 45,108 57,113 45,118 40,130 35,118 23,113 35,108" fill="#F5A826" />
+      <polygon points="160,118 165,130 177,135 165,140 160,152 155,140 143,135 155,130" fill="#F5A826" />
+    </g>
+  </g>
+</svg>
