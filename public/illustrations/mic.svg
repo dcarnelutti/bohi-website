@@ -1,0 +1,69 @@
+<!-- Generated from brand/illustrations/mic.svg by brand/sync.py: edit the source, not this copy. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <g id="edge" fill="#FAF5EF" stroke="#FAF5EF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 100 167.58 C 100 185.72 125.4 187.54 129.02 174.84 C 132.65 163.95 118.14 160.33 114.51 171.21" />
+    <path d="M 74.6 95.02 L 125.4 95.02 L 112.7 167.58 Q 100 174.84 87.3 167.58 Z" />
+    <path d="M 90.93 105.91 L 94.56 158.51" />
+    <rect x="103.63" y="116.79" width="9.07" height="18.14" rx="3.63" />
+    <rect x="69.16" y="82.32" width="61.68" height="18.14" rx="7.26" />
+    <circle cx="100" cy="53.3" r="36.28" />
+    <g>
+      <circle cx="82.77" cy="36.07" r="2.54" />
+      <circle cx="92.74" cy="36.07" r="2.54" />
+      <circle cx="102.72" cy="36.07" r="2.54" />
+      <circle cx="112.7" cy="36.07" r="2.54" />
+      <circle cx="82.77" cy="46.04" r="2.54" />
+      <circle cx="92.74" cy="46.04" r="2.54" />
+      <circle cx="102.72" cy="46.04" r="2.54" />
+      <circle cx="112.7" cy="46.04" r="2.54" />
+      <circle cx="122.67" cy="46.04" r="2.54" />
+      <circle cx="82.77" cy="56.02" r="2.54" />
+      <circle cx="92.74" cy="56.02" r="2.54" />
+      <circle cx="102.72" cy="56.02" r="2.54" />
+      <circle cx="112.7" cy="56.02" r="2.54" />
+      <circle cx="122.67" cy="56.02" r="2.54" />
+      <circle cx="82.77" cy="66" r="2.54" />
+      <circle cx="92.74" cy="66" r="2.54" />
+      <circle cx="102.72" cy="66" r="2.54" />
+      <circle cx="112.7" cy="66" r="2.54" />
+      <circle cx="122.67" cy="66" r="2.54" />
+      <circle cx="92.74" cy="75.97" r="2.54" />
+      <circle cx="102.72" cy="75.97" r="2.54" />
+      <circle cx="112.7" cy="75.97" r="2.54" />
+    </g>
+    <path d="M 70.98 38.79 C 76.42 27.9 85.49 22.46 94.56 20.65" />
+  </g>
+  <g id="drawing" stroke="#2D1F0E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 100 167.58 C 100 185.72 125.4 187.54 129.02 174.84 C 132.65 163.95 118.14 160.33 114.51 171.21" fill="none" stroke-width="7" />
+    <path d="M 74.6 95.02 L 125.4 95.02 L 112.7 167.58 Q 100 174.84 87.3 167.58 Z" fill="#4A3826" />
+    <path d="M 90.93 105.91 L 94.56 158.51" fill="none" stroke="#6B5540" stroke-width="6" />
+    <rect x="103.63" y="116.79" width="9.07" height="18.14" rx="3.63" fill="#F5A826" />
+    <rect x="69.16" y="82.32" width="61.68" height="18.14" rx="7.26" fill="#E0622A" />
+    <circle cx="100" cy="53.3" r="36.28" fill="#FAF5EF" />
+    <g fill="#2D1F0E" stroke="none">
+      <circle cx="82.77" cy="36.07" r="2.54" />
+      <circle cx="92.74" cy="36.07" r="2.54" />
+      <circle cx="102.72" cy="36.07" r="2.54" />
+      <circle cx="112.7" cy="36.07" r="2.54" />
+      <circle cx="82.77" cy="46.04" r="2.54" />
+      <circle cx="92.74" cy="46.04" r="2.54" />
+      <circle cx="102.72" cy="46.04" r="2.54" />
+      <circle cx="112.7" cy="46.04" r="2.54" />
+      <circle cx="122.67" cy="46.04" r="2.54" />
+      <circle cx="82.77" cy="56.02" r="2.54" />
+      <circle cx="92.74" cy="56.02" r="2.54" />
+      <circle cx="102.72" cy="56.02" r="2.54" />
+      <circle cx="112.7" cy="56.02" r="2.54" />
+      <circle cx="122.67" cy="56.02" r="2.54" />
+      <circle cx="82.77" cy="66" r="2.54" />
+      <circle cx="92.74" cy="66" r="2.54" />
+      <circle cx="102.72" cy="66" r="2.54" />
+      <circle cx="112.7" cy="66" r="2.54" />
+      <circle cx="122.67" cy="66" r="2.54" />
+      <circle cx="92.74" cy="75.97" r="2.54" />
+      <circle cx="102.72" cy="75.97" r="2.54" />
+      <circle cx="112.7" cy="75.97" r="2.54" />
+    </g>
+    <path d="M 70.98 38.79 C 76.42 27.9 85.49 22.46 94.56 20.65" fill="none" stroke="#FFFFFF" stroke-width="5" />
+  </g>
+</svg>

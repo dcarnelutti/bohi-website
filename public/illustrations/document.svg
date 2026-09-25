@@ -1,0 +1,25 @@
+<!-- Generated from brand/illustrations/document.svg by brand/sync.py: edit the source, not this copy. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <g id="edge" fill="#FAF5EF" stroke="#FAF5EF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="rotate(-8 100 100)">
+      <path d="M50 24 L 128 24 L 152 48 L 152 176 L 50 176 Z" />
+      <path d="M128 24 L 128 48 L 152 48 Z" />
+      <path d="M68 60 L 112 60 M 68 80 L 134 80 M 68 100 L 134 100 M 68 120 L 118 120" />
+      <path d="M66 152 C 74 138, 82 160, 90 146 C 96 138, 102 156, 110 148" />
+      <path d="M124 160 L 118 182 L 128 176 L 134 184 L 136 162 Z" />
+      <circle cx="132" cy="150" r="15" />
+      <circle cx="132" cy="150" r="7" />
+    </g>
+  </g>
+  <g id="drawing" stroke="#2D1F0E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="rotate(-8 100 100)">
+      <path d="M50 24 L 128 24 L 152 48 L 152 176 L 50 176 Z" fill="#FFFFFF" />
+      <path d="M128 24 L 128 48 L 152 48 Z" fill="#EDE3D8" />
+      <path d="M68 60 L 112 60 M 68 80 L 134 80 M 68 100 L 134 100 M 68 120 L 118 120" fill="none" stroke-width="5" />
+      <path d="M66 152 C 74 138, 82 160, 90 146 C 96 138, 102 156, 110 148" fill="none" stroke-width="4" />
+      <path d="M124 160 L 118 182 L 128 176 L 134 184 L 136 162 Z" fill="#E0622A" />
+      <circle cx="132" cy="150" r="15" fill="#E0622A" />
+      <circle cx="132" cy="150" r="7" fill="#F5A826" stroke="none" />
+    </g>
+  </g>
+</svg>

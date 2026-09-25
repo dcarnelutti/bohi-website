@@ -1,0 +1,19 @@
+<!-- Generated from brand/illustrations/ticket.svg by brand/sync.py: edit the source, not this copy. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <g id="edge" fill="#FAF5EF" stroke="#FAF5EF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="rotate(-12 100 100)">
+      <path d="M24 62 H 176 V 86 A 14 14 0 0 0 176 114 V 138 H 24 V 114 A 14 14 0 0 0 24 86 Z" />
+      <path d="M132 66 V 134" />
+      <path d="M78 78 L 84 92 L 99 93 L 88 103 L 92 118 L 78 110 L 64 118 L 68 103 L 57 93 L 72 92 Z" />
+      <path d="M150 88 V 112" />
+    </g>
+  </g>
+  <g id="drawing" stroke="#2D1F0E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="rotate(-12 100 100)">
+      <path d="M24 62 H 176 V 86 A 14 14 0 0 0 176 114 V 138 H 24 V 114 A 14 14 0 0 0 24 86 Z" fill="#F5A826" />
+      <path d="M132 66 V 134" fill="none" stroke-dasharray="2 12" />
+      <path d="M78 78 L 84 92 L 99 93 L 88 103 L 92 118 L 78 110 L 64 118 L 68 103 L 57 93 L 72 92 Z" fill="#E0622A" />
+      <path d="M150 88 V 112" fill="none" />
+    </g>
+  </g>
+</svg>

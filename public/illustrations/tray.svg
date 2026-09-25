@@ -1,0 +1,17 @@
+<!-- Generated from brand/illustrations/tray.svg by brand/sync.py: edit the source, not this copy. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <g id="edge" fill="#FAF5EF" stroke="#FAF5EF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="100" cy="150" rx="84" ry="16" />
+    <path d="M28 146 C 28 96, 60 70, 100 70 C 140 70, 172 96, 172 146 Z" />
+    <path d="M50 124 C 54 104, 68 90, 86 84" />
+    <rect x="94" y="58" width="12" height="14" rx="3" />
+    <circle cx="100" cy="54" r="11" />
+  </g>
+  <g id="drawing" stroke="#2D1F0E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="100" cy="150" rx="84" ry="16" fill="#DDD5CB" />
+    <path d="M28 146 C 28 96, 60 70, 100 70 C 140 70, 172 96, 172 146 Z" fill="#F2ECE4" />
+    <path d="M50 124 C 54 104, 68 90, 86 84" fill="none" stroke="#FFFFFF" stroke-width="7" />
+    <rect x="94" y="58" width="12" height="14" rx="3" fill="#DDD5CB" />
+    <circle cx="100" cy="54" r="11" fill="#F5A826" />
+  </g>
+</svg>

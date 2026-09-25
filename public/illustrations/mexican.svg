@@ -1,0 +1,35 @@
+<!-- Generated from brand/illustrations/mexican.svg by brand/sync.py: edit the source, not this copy. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <g id="edge" fill="#FAF5EF" stroke="#FAF5EF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(30 0)">
+      <path d="M 54 129 L 86 129 L 88 183 L 74 183 L 70 147 L 66 183 L 52 183 Z" />
+      <path d="M 42 85 L 98 85 L 104 133 L 36 133 Z" />
+      <g>
+        <rect x="40" y="99" width="61" height="7" />
+        <rect x="38" y="113" width="64" height="7" />
+      </g>
+      <path d="M 36 133 L 104 133" />
+      <circle cx="70" cy="69" r="14" />
+      <path d="M 61 75 Q 70 70 79 75" />
+      <ellipse cx="70" cy="53" rx="52" ry="11" />
+      <path d="M 50 53 C 50 17 90 17 90 53 Z" />
+      <path d="M 51 43 Q 70 48 89 43 L 90 50 Q 70 55 50 50 Z" />
+    </g>
+  </g>
+  <g id="drawing" stroke="#2D1F0E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(30 0)">
+      <path d="M 54 129 L 86 129 L 88 183 L 74 183 L 70 147 L 66 183 L 52 183 Z" fill="#2D1F0E" />
+      <path d="M 42 85 L 98 85 L 104 133 L 36 133 Z" fill="#E0622A" />
+      <g stroke="none">
+        <rect x="40" y="99" width="61" height="7" fill="#F5A826" />
+        <rect x="38" y="113" width="64" height="7" fill="#FAF5EF" />
+      </g>
+      <path d="M 36 133 L 104 133" fill="none" stroke-dasharray="1 9" />
+      <circle cx="70" cy="69" r="14" fill="#C68B59" />
+      <path d="M 61 75 Q 70 70 79 75" fill="none" stroke-width="5" />
+      <ellipse cx="70" cy="53" rx="52" ry="11" fill="#F5A826" />
+      <path d="M 50 53 C 50 17 90 17 90 53 Z" fill="#F5A826" />
+      <path d="M 51 43 Q 70 48 89 43 L 90 50 Q 70 55 50 50 Z" fill="#E0622A" />
+    </g>
+  </g>
+</svg>
