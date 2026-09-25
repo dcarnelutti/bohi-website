@@ -3,14 +3,14 @@ import Link from "next/link";
 import styles from "./page.module.css";
 
 const countries = [
-  { flag: "🇻🇪", name: "Venezuela" },
-  { flag: "🇨🇴", name: "Colombia" },
-  { flag: "🇲🇽", name: "México" },
-  { flag: "🇵🇪", name: "Perú" },
-  { flag: "🇦🇷", name: "Argentina" },
-  { flag: "🇩🇴", name: "Rep. Dominicana" },
-  { flag: "🇨🇺", name: "Cuba" },
-  { flag: "🇸🇻", name: "El Salvador" },
+  { code: "ve", name: "Venezuela" },
+  { code: "co", name: "Colombia" },
+  { code: "mx", name: "México" },
+  { code: "pe", name: "Perú" },
+  { code: "ar", name: "Argentina" },
+  { code: "do", name: "Rep. Dominicana" },
+  { code: "cu", name: "Cuba" },
+  { code: "sv", name: "El Salvador" },
 ];
 
 const features = [
@@ -111,7 +111,8 @@ export default function Home() {
               <div className={styles.phoneChips}>
                 {countries.slice(0, 4).map((c) => (
                   <span key={c.name} className={styles.phoneChip}>
-                    {c.flag} {c.name}
+                    <Image src={`/flags/${c.code}.svg`} alt="" width={12} height={12} />
+                    {c.name}
                   </span>
                 ))}
               </div>
@@ -138,7 +139,7 @@ export default function Home() {
           <div className={styles.countryRow}>
             {countries.map((c) => (
               <span key={c.name} className={styles.countryChip}>
-                <span className={styles.countryFlag}>{c.flag}</span>
+                <Image src={`/flags/${c.code}.svg`} alt="" width={20} height={20} className={styles.countryFlag} />
                 {c.name}
               </span>
             ))}

@@ -262,6 +262,9 @@
 
 .phoneChip {
   flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 16px;
@@ -350,7 +353,7 @@
 }
 
 .countryFlag {
-  font-size: 20px;
+  flex-shrink: 0;
 }
 
 /* ---------- Features ---------- */
