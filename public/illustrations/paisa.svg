@@ -1,0 +1,27 @@
+<!-- Generated from brand/illustrations/paisa.svg by brand/sync.py: edit the source, not this copy. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <g id="edge" fill="#FAF5EF" stroke="#FAF5EF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(-152 0)">
+      <path d="M 234 111 L 270 111 L 292 183 L 212 183 Z" />
+      <path d="M 216 171 L 288 171 L 292 183 L 212 183 Z" />
+      <path d="M 238 83 L 266 83 L 272 113 L 232 113 Z" />
+      <path d="M 262 75 C 274 87 274 103 268 115" />
+      <circle cx="252" cy="69" r="14" />
+      <ellipse cx="252" cy="55" rx="42" ry="9" />
+      <path d="M 232 55 C 233 27 271 27 272 55 Z" />
+      <path d="M 233 46 Q 252 50 271 46 L 272 52 Q 252 56 232 52 Z" />
+    </g>
+  </g>
+  <g id="drawing" stroke="#2D1F0E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(-152 0)">
+      <path d="M 234 111 L 270 111 L 292 183 L 212 183 Z" fill="#F5A826" />
+      <path d="M 216 171 L 288 171 L 292 183 L 212 183 Z" fill="#E0622A" />
+      <path d="M 238 83 L 266 83 L 272 113 L 232 113 Z" fill="#FAF5EF" />
+      <path d="M 262 75 C 274 87 274 103 268 115" fill="none" stroke-width="9" />
+      <circle cx="252" cy="69" r="14" fill="#8D5A3B" />
+      <ellipse cx="252" cy="55" rx="42" ry="9" fill="#FAF5EF" />
+      <path d="M 232 55 C 233 27 271 27 272 55 Z" fill="#FAF5EF" />
+      <path d="M 233 46 Q 252 50 271 46 L 272 52 Q 252 56 232 52 Z" fill="#2D1F0E" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<!-- Generated from brand/illustrations/scissors.svg by brand/sync.py: edit the source, not this copy. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <g id="edge" fill="#FAF5EF" stroke="#FAF5EF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="rotate(-24 95.35 100.51)">
+      <path d="M 86.36 95.11 L 163.67 55.56 Q 174.46 51.96 170.86 62.75 L 102.54 109.5 Z" />
+      <path d="M 86.36 105.9 L 163.67 145.45 Q 174.46 149.05 170.86 138.26 L 102.54 91.52 Z" />
+      <path d="M 71.97 82.53 L 95.35 97.81 M 71.97 118.48 L 95.35 103.2" />
+      <ellipse cx="50.4" cy="73.53" rx="26.97" ry="20.68" />
+      <ellipse cx="50.4" cy="73.53" rx="12.59" ry="8.99" />
+      <ellipse cx="50.4" cy="127.48" rx="26.97" ry="20.68" />
+      <ellipse cx="50.4" cy="127.48" rx="12.59" ry="8.99" />
+      <path d="M 30.62 141.86 C 23.43 154.44 12.64 156.24 9.04 149.05" />
+      <circle cx="95.35" cy="100.51" r="8.09" />
+    </g>
+  </g>
+  <g id="drawing" stroke="#2D1F0E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="rotate(-24 95.35 100.51)">
+      <path d="M 86.36 95.11 L 163.67 55.56 Q 174.46 51.96 170.86 62.75 L 102.54 109.5 Z" fill="#FAF5EF" />
+      <path d="M 86.36 105.9 L 163.67 145.45 Q 174.46 149.05 170.86 138.26 L 102.54 91.52 Z" fill="#FAF5EF" />
+      <path d="M 71.97 82.53 L 95.35 97.81 M 71.97 118.48 L 95.35 103.2" fill="none" stroke-width="14" />
+      <ellipse cx="50.4" cy="73.53" rx="26.97" ry="20.68" fill="#E0622A" />
+      <ellipse cx="50.4" cy="73.53" rx="12.59" ry="8.99" fill="#FAF5EF" />
+      <ellipse cx="50.4" cy="127.48" rx="26.97" ry="20.68" fill="#E0622A" />
+      <ellipse cx="50.4" cy="127.48" rx="12.59" ry="8.99" fill="#FAF5EF" />
+      <path d="M 30.62 141.86 C 23.43 154.44 12.64 156.24 9.04 149.05" fill="none" stroke-width="9" />
+      <circle cx="95.35" cy="100.51" r="8.09" fill="#F5A826" />
+    </g>
+  </g>
+</svg>

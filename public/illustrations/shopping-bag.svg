@@ -1,0 +1,25 @@
+<!-- Generated from brand/illustrations/shopping-bag.svg by brand/sync.py: edit the source, not this copy. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <g id="edge" fill="#FAF5EF" stroke="#FAF5EF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="rotate(-8 100 100)">
+      <path d="M 92 82 C 92 44, 134 44, 134 82" />
+      <path d="M 56 84 L 60 62 L 72 72 L 80 50 L 94 66 L 106 46 L 116 64 L 130 52 L 134 84 Z" />
+      <path d="M 136 80 L 156 86 L 158 162 L 140 168 Z" />
+      <path d="M 52 80 L 136 80 L 140 168 L 48 168 Z" />
+      <path d="M 70 98 C 68 52, 116 52, 114 98" />
+      <circle cx="70" cy="98" r="5" />
+      <circle cx="114" cy="98" r="5" />
+    </g>
+  </g>
+  <g id="drawing" stroke="#2D1F0E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="rotate(-8 100 100)">
+      <path d="M 92 82 C 92 44, 134 44, 134 82" fill="none" stroke-width="8" />
+      <path d="M 56 84 L 60 62 L 72 72 L 80 50 L 94 66 L 106 46 L 116 64 L 130 52 L 134 84 Z" fill="#F5A826" />
+      <path d="M 136 80 L 156 86 L 158 162 L 140 168 Z" fill="#F2915E" />
+      <path d="M 52 80 L 136 80 L 140 168 L 48 168 Z" fill="#E0622A" />
+      <path d="M 70 98 C 68 52, 116 52, 114 98" fill="none" stroke-width="8" />
+      <circle cx="70" cy="98" r="5" fill="#F5A826" />
+      <circle cx="114" cy="98" r="5" fill="#F5A826" />
+    </g>
+  </g>
+</svg>

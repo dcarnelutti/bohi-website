@@ -1,0 +1,17 @@
+<!-- Generated from brand/illustrations/check-badge.svg by brand/sync.py: edit the source, not this copy. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <g id="edge" fill="#FAF5EF" stroke="#FAF5EF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M75 111 L101 116 L96 172 L82 158 L67 164 Z" />
+    <path d="M99 116 L125 111 L133 164 L118 158 L104 172 Z" />
+    <path d="M85.8 36.9 A23 23 0 0 1 114.2 36.9 A23 23 0 0 1 138.9 51.1 A23 23 0 0 1 153.1 75.8 A23 23 0 0 1 153.1 104.2 A23 23 0 0 1 138.9 128.9 A23 23 0 0 1 114.2 143.1 A23 23 0 0 1 85.8 143.1 A23 23 0 0 1 61.1 128.9 A23 23 0 0 1 46.9 104.2 A23 23 0 0 1 46.9 75.8 A23 23 0 0 1 61.1 51.1 A23 23 0 0 1 85.8 36.9 Z" />
+    <circle cx="100" cy="90" r="43" />
+    <path d="M80 87 L94 101 L124 68 L137 81 L94 122 L66 95 Z" />
+  </g>
+  <g id="drawing" stroke="#2D1F0E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M75 111 L101 116 L96 172 L82 158 L67 164 Z" fill="#B84515" />
+    <path d="M99 116 L125 111 L133 164 L118 158 L104 172 Z" fill="#E0622A" />
+    <path d="M85.8 36.9 A23 23 0 0 1 114.2 36.9 A23 23 0 0 1 138.9 51.1 A23 23 0 0 1 153.1 75.8 A23 23 0 0 1 153.1 104.2 A23 23 0 0 1 138.9 128.9 A23 23 0 0 1 114.2 143.1 A23 23 0 0 1 85.8 143.1 A23 23 0 0 1 61.1 128.9 A23 23 0 0 1 46.9 104.2 A23 23 0 0 1 46.9 75.8 A23 23 0 0 1 61.1 51.1 A23 23 0 0 1 85.8 36.9 Z" fill="#F5A826" />
+    <circle cx="100" cy="90" r="43" fill="#E0622A" />
+    <path d="M80 87 L94 101 L124 68 L137 81 L94 122 L66 95 Z" fill="#FFFFFF" />
+  </g>
+</svg>

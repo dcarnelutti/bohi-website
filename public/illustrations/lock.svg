@@ -1,0 +1,21 @@
+<!-- Generated from brand/illustrations/lock.svg by brand/sync.py: edit the source, not this copy. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <g id="edge" fill="#FAF5EF" stroke="#FAF5EF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="rotate(-8 100 100)">
+      <path d="M64 91 L64 62 C64 40 80 28 100 28 C120 28 136 40 136 62 L136 91 L122 91 L122 62 C122 49 113 42 100 42 C87 42 78 49 78 62 L78 91 Z" />
+      <rect x="45" y="78" width="110" height="86" rx="14" ry="14" />
+      <circle cx="100" cy="121" r="24" />
+      <circle cx="100" cy="113" r="6" />
+      <polygon points="95,119 105,119 110,137 90,137" />
+    </g>
+  </g>
+  <g id="drawing" stroke="#2D1F0E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="rotate(-8 100 100)">
+      <path d="M64 91 L64 62 C64 40 80 28 100 28 C120 28 136 40 136 62 L136 91 L122 91 L122 62 C122 49 113 42 100 42 C87 42 78 49 78 62 L78 91 Z" fill="#DDD5CB" />
+      <rect x="45" y="78" width="110" height="86" rx="14" ry="14" fill="#E0622A" />
+      <circle cx="100" cy="121" r="24" fill="#F5A826" />
+      <circle cx="100" cy="113" r="6" fill="#2D1F0E" stroke="none" />
+      <polygon points="95,119 105,119 110,137 90,137" fill="#2D1F0E" stroke="none" />
+    </g>
+  </g>
+</svg>

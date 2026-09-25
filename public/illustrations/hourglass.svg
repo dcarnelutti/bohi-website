@@ -1,0 +1,29 @@
+<!-- Generated from brand/illustrations/hourglass.svg by brand/sync.py: edit the source, not this copy. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <g id="edge" fill="#FAF5EF" stroke="#FAF5EF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="rotate(-10 100 100)">
+      <rect x="53" y="50" width="10" height="100" rx="5" />
+      <rect x="137" y="50" width="10" height="100" rx="5" />
+      <path d="M66 56 C68 76 83 88 96 100 C83 112 68 124 66 144 L134 144 C132 124 117 112 104 100 C117 88 132 76 134 56 Z" />
+      <line x1="100" y1="98" x2="100" y2="121" />
+      <path d="M88 84 C93 87 97 88 100 89 C103 88 107 87 112 84 C110 91 105 96 100 99 C95 96 90 91 88 84 Z" />
+      <path d="M71 136 C80 124 91 118 100 118 C110 118 121 124 129 136 L129 144 L71 144 Z" />
+      <rect x="46" y="34" width="108" height="22" rx="8" />
+      <rect x="46" y="144" width="108" height="22" rx="8" />
+      <path d="M68 45 C80 41 92 49 104 45 M94 155 C108 151 119 159 132 154" />
+    </g>
+  </g>
+  <g id="drawing" stroke="#2D1F0E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="rotate(-10 100 100)">
+      <rect x="53" y="50" width="10" height="100" rx="5" fill="#DDD5CB" />
+      <rect x="137" y="50" width="10" height="100" rx="5" fill="#DDD5CB" />
+      <path d="M66 56 C68 76 83 88 96 100 C83 112 68 124 66 144 L134 144 C132 124 117 112 104 100 C117 88 132 76 134 56 Z" fill="#FFFFFF" />
+      <line x1="100" y1="98" x2="100" y2="121" fill="none" stroke="#F5A826" stroke-width="5" />
+      <path d="M88 84 C93 87 97 88 100 89 C103 88 107 87 112 84 C110 91 105 96 100 99 C95 96 90 91 88 84 Z" fill="#F5A826" />
+      <path d="M71 136 C80 124 91 118 100 118 C110 118 121 124 129 136 L129 144 L71 144 Z" fill="#F5A826" />
+      <rect x="46" y="34" width="108" height="22" rx="8" fill="#D9A066" />
+      <rect x="46" y="144" width="108" height="22" rx="8" fill="#D9A066" />
+      <path d="M68 45 C80 41 92 49 104 45 M94 155 C108 151 119 159 132 154" fill="none" stroke-width="3" />
+    </g>
+  </g>
+</svg>

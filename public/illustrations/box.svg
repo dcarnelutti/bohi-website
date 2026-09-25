@@ -1,0 +1,29 @@
+<!-- Generated from brand/illustrations/box.svg by brand/sync.py: edit the source, not this copy. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <g id="edge" fill="#FAF5EF" stroke="#FAF5EF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <polygon points="100,58 149,82 158,48 110,27" />
+    <polygon points="51,82 100,58 78,30 29,55" />
+    <polygon points="100,106 149,82 149,139 100,164" />
+    <polygon points="51,82 100,106 100,164 51,139" />
+    <polygon points="51,82 100,58 149,82 100,106" />
+    <polygon points="149,82 100,106 128,134 174,109" />
+    <polygon points="100,106 51,82 37,105 87,131" />
+    <path d="M64 91 L87 102" />
+    <path d="M124 97 L151 110" />
+    <polygon points="63,121 91,134 91,153 63,140" />
+    <path d="M70 132 L84 139 M70 141 L82 147" />
+  </g>
+  <g id="drawing" stroke="#2D1F0E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <polygon points="100,58 149,82 158,48 110,27" fill="#D9A066" />
+    <polygon points="51,82 100,58 78,30 29,55" fill="#D9A066" />
+    <polygon points="100,106 149,82 149,139 100,164" fill="#D9A066" />
+    <polygon points="51,82 100,106 100,164 51,139" fill="#D9A066" />
+    <polygon points="51,82 100,58 149,82 100,106" fill="#8A4A1E" />
+    <polygon points="149,82 100,106 128,134 174,109" fill="#D9A066" />
+    <polygon points="100,106 51,82 37,105 87,131" fill="#D9A066" />
+    <path d="M64 91 L87 102" fill="none" stroke-width="4" />
+    <path d="M124 97 L151 110" fill="none" stroke-width="4" />
+    <polygon points="63,121 91,134 91,153 63,140" fill="#FFFFFF" />
+    <path d="M70 132 L84 139 M70 141 L82 147" fill="none" stroke-width="3" />
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<!-- Generated from brand/illustrations/toolbox.svg by brand/sync.py: edit the source, not this copy. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <g id="edge" fill="#FAF5EF" stroke="#FAF5EF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="rotate(-18 64 70)">
+      <rect x="58" y="44" width="13" height="66" rx="5" />
+      <path d="M 50 50 C 44 34, 56 20, 64 22 L 62 36 L 70 38 L 76 25 C 84 30, 84 46, 74 52 Z" />
+    </g>
+    <g transform="rotate(14 132 72)">
+      <rect x="128" y="58" width="8" height="50" rx="3" />
+      <rect x="121" y="26" width="22" height="38" rx="8" />
+      <path d="M 128 34 V 56 M 136 34 V 56" />
+    </g>
+    <path d="M 36 94 L 164 94 L 156 164 Q 155 170 149 170 L 51 170 Q 45 170 44 164 Z" />
+    <path d="M 36 94 L 164 94 L 162 112 L 38 112 Z" />
+    <rect x="89" y="102" width="22" height="24" rx="5" />
+    <path d="M 66 94 V 76 Q 66 62 80 62 H 120 Q 134 62 134 76 V 94 H 122 V 80 Q 122 74 116 74 H 84 Q 78 74 78 80 V 94 Z" />
+  </g>
+  <g id="drawing" stroke="#2D1F0E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="rotate(-18 64 70)">
+      <rect x="58" y="44" width="13" height="66" rx="5" fill="#DDD5CB" />
+      <path d="M 50 50 C 44 34, 56 20, 64 22 L 62 36 L 70 38 L 76 25 C 84 30, 84 46, 74 52 Z" fill="#DDD5CB" />
+    </g>
+    <g transform="rotate(14 132 72)">
+      <rect x="128" y="58" width="8" height="50" rx="3" fill="#DDD5CB" />
+      <rect x="121" y="26" width="22" height="38" rx="8" fill="#F5A826" />
+      <path d="M 128 34 V 56 M 136 34 V 56" fill="none" stroke-width="3" />
+    </g>
+    <path d="M 36 94 L 164 94 L 156 164 Q 155 170 149 170 L 51 170 Q 45 170 44 164 Z" fill="#E0622A" />
+    <path d="M 36 94 L 164 94 L 162 112 L 38 112 Z" fill="#B84515" />
+    <rect x="89" y="102" width="22" height="24" rx="5" fill="#F5A826" />
+    <path d="M 66 94 V 76 Q 66 62 80 62 H 120 Q 134 62 134 76 V 94 H 122 V 80 Q 122 74 116 74 H 84 Q 78 74 78 80 V 94 Z" fill="#DDD5CB" />
+  </g>
+</svg>

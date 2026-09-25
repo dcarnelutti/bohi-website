@@ -1,0 +1,33 @@
+<!-- Generated from brand/illustrations/party-popper.svg by brand/sync.py: edit the source, not this copy. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <g id="edge" fill="#FAF5EF" stroke="#FAF5EF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 108 90 C 112 68, 132 80, 130 60 C 128 44, 144 38, 154 44" />
+    <path d="M 118 118 C 136 112, 138 136, 158 128" />
+    <path d="M 40 170 L 76.8 88.8 A 30 10 45 0 1 119.2 131.2 Z" />
+    <polygon points="54,139.1 70.1,155.3 81.2,149.8 59.1,127.8" />
+    <polygon points="65,114.8 93.9,143.6 105,138.2 70.2,103.4" />
+    <ellipse cx="98" cy="110" rx="30" ry="10" transform="rotate(45 98 110)" />
+    <rect x="122" y="70" width="16" height="9" rx="3" transform="rotate(30 130 74)" />
+    <circle cx="150" cy="96" r="6" />
+    <rect x="104" y="46" width="16" height="9" rx="3" transform="rotate(-24 112 50)" />
+    <circle cx="164" cy="64" r="5" />
+    <rect x="140" y="138" width="16" height="9" rx="3" transform="rotate(52 148 142)" />
+    <circle cx="84" cy="66" r="5" />
+    <rect x="160" y="108" width="14" height="8" rx="3" transform="rotate(-40 167 112)" />
+  </g>
+  <g id="drawing" stroke="#2D1F0E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 108 90 C 112 68, 132 80, 130 60 C 128 44, 144 38, 154 44" fill="none" stroke="#E0622A" stroke-width="6" />
+    <path d="M 118 118 C 136 112, 138 136, 158 128" fill="none" stroke="#6FA83E" stroke-width="6" />
+    <path d="M 40 170 L 76.8 88.8 A 30 10 45 0 1 119.2 131.2 Z" fill="#F5A826" />
+    <polygon points="54,139.1 70.1,155.3 81.2,149.8 59.1,127.8" fill="#E0622A" stroke-width="4" />
+    <polygon points="65,114.8 93.9,143.6 105,138.2 70.2,103.4" fill="#E0622A" stroke-width="4" />
+    <ellipse cx="98" cy="110" rx="30" ry="10" transform="rotate(45 98 110)" fill="#B84515" />
+    <rect x="122" y="70" width="16" height="9" rx="3" transform="rotate(30 130 74)" fill="#E0622A" />
+    <circle cx="150" cy="96" r="6" fill="#6FA83E" />
+    <rect x="104" y="46" width="16" height="9" rx="3" transform="rotate(-24 112 50)" fill="#F5A826" />
+    <circle cx="164" cy="64" r="5" fill="#B84515" />
+    <rect x="140" y="138" width="16" height="9" rx="3" transform="rotate(52 148 142)" fill="#F5A826" />
+    <circle cx="84" cy="66" r="5" fill="#E0622A" />
+    <rect x="160" y="108" width="14" height="8" rx="3" transform="rotate(-40 167 112)" fill="#B84515" />
+  </g>
+</svg>
