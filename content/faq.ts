@@ -37,7 +37,7 @@ export const FAQ: Record<'en' | 'es', { title: string; intro: string; contact: s
         title: "Appointments",
         items: [
           { q: "How do I book an appointment?", a: "Open the service provider, choose the service, day and time, and pay in advance to confirm it. The provider gets the booking and you'll see it in Profile, under My Appointments." },
-          { q: "Can I cancel an appointment?", a: "Yes, from the appointment. The provider's cancellation policy is shown before you pay, and a cancellation fee may apply if you cancel too late. The time slot is freed up as soon as you cancel." },
+          { q: "Can I cancel an appointment?", a: "Yes, from the appointment. The provider's cancellation policy is shown before you pay. Any cancellation fee is only informational: it isn't charged automatically, so it's settled directly with the provider. The time slot is freed up as soon as you cancel." },
         ],
       },
       {
@@ -86,7 +86,7 @@ export const FAQ: Record<'en' | 'es', { title: string; intro: string; contact: s
         title: "Citas",
         items: [
           { q: "¿Cómo reservo una cita?", a: "Abre al proveedor, elige el servicio, el día y la hora, y paga por adelantado para confirmarla. El proveedor recibe la reserva y tú la ves en Perfil, en Mis citas." },
-          { q: "¿Puedo cancelar una cita?", a: "Sí, desde la propia cita. La política de cancelación del proveedor se muestra antes de pagar, y puede aplicarse un cargo si cancelas demasiado tarde. El horario se libera en cuanto cancelas." },
+          { q: "¿Puedo cancelar una cita?", a: "Sí, desde la propia cita. La política de cancelación del proveedor se muestra antes de pagar. Cualquier cargo por cancelación es solo informativo: no se cobra automáticamente, se arregla directamente con el proveedor. El horario se libera en cuanto cancelas." },
         ],
       },
       {
