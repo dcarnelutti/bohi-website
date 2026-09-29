@@ -98,3 +98,27 @@
   .doc { padding: 32px 20px 48px; }
   .title { font-size: 26px; }
 }
+
+.langTitle {
+  font-size: 24px;
+  font-weight: 800;
+  margin: 48px 0 12px;
+  letter-spacing: -0.3px;
+}
+
+.faqItem {
+  border-top: 1px solid var(--border, rgba(0, 0, 0, 0.1));
+  padding: 4px 0;
+}
+
+.faqItem:last-child { border-bottom: 1px solid var(--border, rgba(0, 0, 0, 0.1)); }
+
+.faqItem summary {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 12px 0;
+}
+
+.faqItem .paragraph { margin: 0 0 12px; }

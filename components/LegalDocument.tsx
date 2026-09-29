@@ -81,6 +81,7 @@ export function LegalDocument({
           <Link href="/privacy">Privacy Policy</Link>
           <Link href="/terms">Terms &amp; Conditions</Link>
           <Link href="/support">Support</Link>
+          <Link href="/faq">FAQ</Link>
         </nav>
         <p>© {new Date().getFullYear()} BohiApp · Calgary, Alberta, Canadá</p>
       </footer>

@@ -185,6 +185,7 @@ export default function Home() {
           <Link href="/privacy">Privacidad</Link>
           <Link href="/terms">Términos</Link>
           <Link href="/support">Soporte</Link>
+          <Link href="/faq">Preguntas frecuentes</Link>
         </nav>
         <p>© {new Date().getFullYear()} BohiApp. Hecho con cariño para la comunidad latina.</p>
       </footer>

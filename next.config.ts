@@ -10,6 +10,8 @@ const nextConfig: NextConfig = {
       { source: "/privacidad", destination: "/privacy", permanent: true },
       { source: "/terminos", destination: "/terms", permanent: true },
       { source: "/soporte", destination: "/support", permanent: true },
+      { source: "/preguntas-frecuentes", destination: "/faq", permanent: true },
+      { source: "/ayuda", destination: "/faq", permanent: true },
     ];
   },
 
