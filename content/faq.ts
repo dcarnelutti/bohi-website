@@ -10,7 +10,7 @@ export const FAQ: Record<'en' | 'es', { title: string; intro: string; contact: s
       {
         title: "Orders and pickup",
         items: [
-          { q: "How does pickup work?", a: "Add products to your cart and place the order. For each store you choose \"as soon as possible\" or a specific day and time, and the store confirms it or suggests another time. When it's ready, go to the store's address and show your order. BohiApp orders are picked up in person." },
+          { q: "How does pickup work?", a: "Add products to your cart and place the order. For each store you choose \"ASAP\" or a specific day and time, and the store confirms it or suggests another time. When it's ready, go to the store's address and show your order. BohiApp orders are picked up in person." },
           { q: "Can I order from several stores at once?", a: "Each order is from a single store, so the store that prepares it is the one that gets paid and hands it over. If you want products from two stores, place two orders." },
           { q: "Can I cancel an order?", a: "Yes, from the order screen. If the store hasn't started preparing it, you get everything back. If they already started, they need to approve the cancellation, and you'll see their answer on the same screen. Once it's ready and waiting, it can't be cancelled: let the store know if you can't make it." },
           { q: "Something is wrong with my order", a: "The fastest way is to write to the store from the order screen, since they prepared it. If you can't resolve it with them, write to info@bohiapp.com and we'll step in." },
@@ -59,7 +59,7 @@ export const FAQ: Record<'en' | 'es', { title: string; intro: string; contact: s
       {
         title: "Pedidos y recogida",
         items: [
-          { q: "¿Cómo funciona la recogida?", a: "Agrega productos al carrito y haz el pedido. Por cada tienda eliges «lo antes posible» o un día y una hora concretos, y la tienda lo confirma o te propone otra hora. Cuando esté listo, ve a la dirección de la tienda y muestra tu pedido. Los pedidos de BohiApp se recogen en persona." },
+          { q: "¿Cómo funciona la recogida?", a: "Agrega productos al carrito y haz el pedido. Por cada tienda eliges «Ahora» o un día y una hora concretos, y la tienda lo confirma o te propone otra hora. Cuando esté listo, ve a la dirección de la tienda y muestra tu pedido. Los pedidos de BohiApp se recogen en persona." },
           { q: "¿Puedo pedir a varias tiendas a la vez?", a: "Cada pedido es de una sola tienda, así la tienda que lo prepara es la que cobra y te lo entrega. Si quieres productos de dos tiendas, haz dos pedidos." },
           { q: "¿Puedo cancelar un pedido?", a: "Sí, desde la pantalla del pedido. Si la tienda aún no empezó a prepararlo, te devuelven todo. Si ya empezó, necesita aprobar la cancelación y verás su respuesta en la misma pantalla. Cuando ya está listo y esperándote no se puede cancelar: avisa a la tienda si no puedes ir." },
           { q: "Hay un problema con mi pedido", a: "Lo más rápido es escribirle a la tienda desde la pantalla del pedido, porque fue quien lo preparó. Si no lo resuelves con ella, escribe a info@bohiapp.com y intervenimos." },
