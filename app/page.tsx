@@ -2,6 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./page.module.css";
 
+// Portales públicos de BohiApp. Organizadores no tiene portal público todavía:
+// a quien organiza eventos se le atiende por correo.
+const VENDORS_URL = "https://vendors.bohiapp.com";
+const PROVIDERS_URL = "https://provider.bohiapp.com";
+
 const countries = [
   { code: "ve", name: "Venezuela" },
   { code: "co", name: "Colombia" },
@@ -57,7 +62,7 @@ export default function Home() {
         <nav className={styles.nav}>
           <a href="#features">Funciones</a>
           <a href="#countries">Comunidades</a>
-          <a href="#vendors">Vendedores</a>
+          <a href="#vendors">Para negocios</a>
         </nav>
         <a href="#download" className={styles.headerCta}>
           Descargar
@@ -167,9 +172,20 @@ export default function Home() {
             Únete a BohiApp como vendedor, organizador o proveedor de servicios
             y llega a toda la comunidad latina de tu ciudad.
           </p>
-          <a href="mailto:hola@bohiapp.com" className={styles.vendorBtn}>
-            Quiero vender en BohiApp
-          </a>
+          <div className={styles.vendorActions}>
+            <a href={VENDORS_URL} className={styles.vendorBtn}>
+              Abrir mi tienda
+            </a>
+            <a href={PROVIDERS_URL} className={styles.vendorBtn}>
+              Ofrecer mis servicios
+            </a>
+            <a
+              href="mailto:hola@bohiapp.com?subject=Quiero%20organizar%20eventos%20en%20BohiApp"
+              className={styles.vendorBtnAlt}
+            >
+              Organizar eventos
+            </a>
+          </div>
         </section>
       </main>
 
@@ -186,6 +202,8 @@ export default function Home() {
           <Link href="/terms">Términos</Link>
           <Link href="/support">Soporte</Link>
           <Link href="/faq">Preguntas frecuentes</Link>
+          <a href={VENDORS_URL}>Vendedores</a>
+          <a href={PROVIDERS_URL}>Proveedores</a>
         </nav>
         <p>© {new Date().getFullYear()} BohiApp. Hecho con cariño para la comunidad latina.</p>
       </footer>
