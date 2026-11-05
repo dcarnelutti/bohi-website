@@ -445,6 +445,31 @@
   box-shadow: 0 8px 24px rgba(45, 31, 14, 0.25);
 }
 
+/* Los tres botones de la sección de negocios: dos principales y uno de contacto. */
+.vendorActions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+}
+
+.vendorBtnAlt {
+  display: inline-block;
+  background: transparent;
+  color: #fff;
+  font-weight: 800;
+  font-size: 16px;
+  padding: 12px 30px;
+  border: 2px solid rgba(255, 255, 255, 0.85);
+  border-radius: 28px;
+  transition: transform 0.15s, background 0.15s;
+}
+
+.vendorBtnAlt:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.14);
+}
+
 /* ---------- Footer ---------- */
 .footer {
   display: flex;

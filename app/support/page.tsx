@@ -32,6 +32,10 @@ export default function SupportPage() {
           Escríbenos en español o en inglés, como prefieras.
         </p>
 
+        <p className={styles.paragraph}>
+          Looking for quick answers? See the <Link href="/faq">FAQ</Link> (English and Español).
+        </p>
+
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Orders and pickups</h2>
           <p className={styles.paragraph}>
@@ -78,6 +82,7 @@ export default function SupportPage() {
           <Link href="/privacy">Privacy Policy</Link>
           <Link href="/terms">Terms &amp; Conditions</Link>
           <Link href="/support">Support</Link>
+          <Link href="/faq">FAQ</Link>
         </nav>
         <p>© {new Date().getFullYear()} BohiApp · Calgary, Alberta, Canadá</p>
       </footer>
