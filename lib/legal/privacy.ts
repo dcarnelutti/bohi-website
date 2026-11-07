@@ -6,7 +6,7 @@
 
 
 export const PRIVACY_EFFECTIVE_DATE = 'June 15, 2026';
-export const PRIVACY_LAST_UPDATED = 'August 11, 2026';
+export const PRIVACY_LAST_UPDATED = 'November 7, 2026';
 
 type Block =
   | { kind: 'paragraph'; text: string }
@@ -157,7 +157,7 @@ export const PRIVACY_SECTIONS: PrivacySection[] = [
     blocks: [
       {
         kind: 'paragraph',
-        text: 'Our Platform is not intended for users under 18 years old. We do not knowingly collect personal information from children. If we become aware that we have collected such information, we will take steps to delete it.',
+        text: 'BohiApp accounts are not intended for anyone under the age of majority in their province or territory. We do not knowingly collect personal information from children. If we become aware that we have collected such information, we will take steps to delete it.',
       },
     ],
   },
