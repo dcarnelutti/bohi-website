@@ -45,7 +45,7 @@ export const FAQ: Record<'en' | 'es', { title: string; intro: string; contact: s
         items: [
           { q: "Can I use the app in Spanish or English?", a: "Yes. Go to Profile, Preferences, and choose your language. The app changes right away." },
           { q: "How do I report or block a review?", a: "Tap the options on the review and choose to report it, hide it or block the author. Reporting doesn't delete it: BohiApp reviews the case and decides. If a review is removed, its author is told why." },
-          { q: "Is there an age requirement?", a: "You need to be at least 18 years old to use BohiApp. We ask for your date of birth when you set up your profile." },
+          { q: "Is there an age requirement?", a: "To create an account you need to have reached the age of majority in your province, because buying and booking means entering into a contract. You confirm this when you finish setting up your profile. You do not need an account to browse the app." },
           { q: "How do I delete my account?", a: "Go to Profile, scroll to the bottom and tap Delete account. Your personal information is removed from the platform. If you own a store, you need to transfer or close it first." },
         ],
       },
@@ -94,7 +94,7 @@ export const FAQ: Record<'en' | 'es', { title: string; intro: string; contact: s
         items: [
           { q: "¿Puedo usar la app en español o en inglés?", a: "Sí. Ve a Perfil, Preferencias y elige tu idioma. La app cambia al instante." },
           { q: "¿Cómo denuncio o bloqueo una reseña?", a: "Toca las opciones de la reseña y elige denunciarla, ocultarla o bloquear al autor. Denunciar no la borra: BohiApp revisa el caso y decide. Si se elimina una reseña, su autor recibe el motivo." },
-          { q: "¿Hay una edad mínima?", a: "Debes tener al menos 18 años para usar BohiApp. Te pedimos la fecha de nacimiento al configurar tu perfil." },
+          { q: "¿Hay una edad mínima?", a: "Para crear una cuenta debes ser mayor de edad en tu provincia, porque comprar y reservar implica aceptar un contrato. Lo confirmas al terminar de configurar tu perfil. Para mirar la app no necesitas cuenta." },
           { q: "¿Cómo elimino mi cuenta?", a: "Ve a Perfil, baja hasta el final y toca Eliminar cuenta. Tu información personal se borra de la plataforma. Si eres dueño de una tienda, primero tienes que transferirla o cerrarla." },
         ],
       },

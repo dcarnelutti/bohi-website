@@ -6,7 +6,7 @@
 
 
 export const TERMS_EFFECTIVE_DATE = 'June 15, 2026';
-export const TERMS_LAST_UPDATED = 'June 15, 2026';
+export const TERMS_LAST_UPDATED = 'November 7, 2026';
 
 type Block =
   | { kind: 'paragraph'; text: string }
@@ -32,6 +32,10 @@ export const TERMS_SECTIONS: TermsSection[] = [
       {
         kind: 'paragraph',
         text: 'We may update these Terms from time to time. We will notify you of material changes (e.g., via email or in-app notice). Your continued use after changes constitutes acceptance of the new Terms.',
+      },
+      {
+        kind: 'paragraph',
+        text: 'Eligibility: You must have reached the age of majority in your province or territory of residence to create an account, place orders, obtain tickets or book appointments. By creating an account, you confirm that you meet this requirement.',
       },
       {
         kind: 'paragraph',
